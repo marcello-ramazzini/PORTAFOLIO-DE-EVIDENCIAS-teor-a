@@ -1,0 +1,39 @@
+
+E   I
+
+
+
+
+
+int letra;
+
+Console.WriteLine("Por favor, ingrese la opción que desee realizar");
+Console.WriteLine("A=1,  E=2,  I=3,  O=4,  U=5");
+letra = Convert.ToInt32(Console.ReadLine());
+
+
+
+if(letra == 2)
+{
+    Console.WriteLine("X X X X X X X X X X");
+    for( int i = 0; i < 5; i++)
+    {
+        Console.WriteLine("x");
+    }
+    Console.WriteLine("X X X X X X X X X X");
+    for (int i = 0; i < 5; i++)
+    {
+        Console.WriteLine("x");
+    }
+    Console.WriteLine("X X X X X X X X X X");
+}
+
+if(letra == 3)
+{
+    Console.WriteLine("X X X X X X X X X X");
+    for (int i = 0; i < 5; i++)
+    {
+        Console.WriteLine("        X X");
+    }
+    Console.WriteLine("X X X X X X X X X X");
+}

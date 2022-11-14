@@ -1,0 +1,18 @@
+ACTIVIDAD 5, SEMANA 5
+
+int num;
+
+Console.WriteLine("Por favor, ingrese un número dentro del rango deseado");
+num = Convert.ToInt(Console.ReadLine());
+
+/el rango es de 3 a 5
+
+if(num !=3   &&  num !=4  &&   num !=5)
+{
+	COnsole.WriteLine("ha ingresado un número dentro del rango deseado");	
+}
+
+else
+{
+	Console.WriteLine("ha ingresado un número que no pertenece dentro del rango deseado");
+}

@@ -1,0 +1,38 @@
+
+using system;
+
+class origram
+{
+
+	public	
+{
+	public sttic double calcularPrecio(string tipo helado, int topping )
+	{
+		double precio =0;
+		if (tipo helado == "chocolate" || tipo helado == "vainilla"  || tipo helado "fresa")
+		{
+			precio =5;
+		}
+		else if (tipo helado == "napolitano" || tipo helado == "pistacho")
+		{
+			precio =7;
+		}
+		
+		
+		switch (topping)
+		{
+		 
+		 case 1: // cobertura de chocolate
+			precio = precio +1;
+			break;
+		case 2: // cobertura chocolate con manía
+			precio= precio +2;
+			break;
+		case 3: // cobertura chocolate con anicillos
+			precio = precio +1;
+			break;
+		
+		}
+		return precio;
+	}
+}

@@ -1,0 +1,26 @@
+
+
+
+
+
+int letra;
+
+Console.WriteLine("Por favor, ingrese la opción que desee realizar");
+Console.WriteLine("A=1,  E=2,  I=3,  O=4,  U=5");
+letra = Convert.ToInt32(Console.ReadLine());
+
+
+
+
+if (letra == 5)
+{
+    for (int x = 0; x < 9; x++)
+    {
+        Console.WriteLine("x         x");
+    }
+       Console.WriteLine("X X X X X X");
+}
+
+
+
+
